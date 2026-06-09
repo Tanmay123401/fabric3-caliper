@@ -1,0 +1,10 @@
+{
+  "target_tps": 100,
+  "workers": 10,
+  "tx_duration": 8,
+  "trim": 2,
+  "payload_kb": 1,
+  "benchmark_path": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/paper-initial/tps_100/benchmark.yaml",
+  "report_path": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/paper-initial/tps_100/report.html",
+  "network_config": "network.yaml"
+}

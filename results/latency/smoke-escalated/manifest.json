@@ -1,0 +1,9 @@
+{
+  "created_at": "2026-06-02T12:01:33.069859",
+  "runs": [
+    {
+      "target_tps": 50,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/smoke-escalated/tps_50"
+    }
+  ]
+}

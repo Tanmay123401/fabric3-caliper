@@ -1,0 +1,2 @@
+target_tps,submitted,success,failed,failure_rate_pct,throughput_tps,mean_latency_ms,p50_latency_ms,p95_latency_ms,p99_latency_ms,max_latency_ms,latency_std_ms,spike_share_pct,instability_cv
+50,260,0,260,100.0,0.0,,,,,,,,

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-06-02T12:08:00.013035",
+  "runs": [
+    {
+      "target_tps": 50,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/my-run/tps_50"
+    },
+    {
+      "target_tps": 100,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/my-run/tps_100"
+    },
+    {
+      "target_tps": 150,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/my-run/tps_150"
+    },
+    {
+      "target_tps": 200,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/my-run/tps_200"
+    },
+    {
+      "target_tps": 250,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/my-run/tps_250"
+    }
+  ]
+}

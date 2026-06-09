@@ -1,0 +1,12 @@
+{
+  "created_at": "2026-06-02T09:15:47.744Z",
+  "runs": [
+    {
+      "target_tps": 50,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/bottleneck/smoke/tps_50",
+      "total_transactions": 200,
+      "start_time": "2026-06-02T09:15:47.771Z",
+      "end_time": "2026-06-02T09:15:53.114Z"
+    }
+  ]
+}

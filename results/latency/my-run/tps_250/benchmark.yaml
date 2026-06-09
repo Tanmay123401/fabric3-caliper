@@ -1,0 +1,25 @@
+name: Latency-Sweep
+
+monitors:
+  transaction:
+    - module: logging
+      options:
+        loggerModuleName: txinfo
+        messageLevel: info
+
+test:
+  workers:
+    number: 10
+  rounds:
+    - label: createAsset_tps_250
+      description: Latency sweep point at 250 TPS
+      txDuration: 8
+      trim: 2
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 250
+      workload:
+        module: workloads/createAsset.js
+        arguments:
+          payloadKB: 1

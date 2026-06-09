@@ -1,0 +1,10 @@
+timestamp,target_tps,container,container_id,cpu_percent,memory_usage,memory_percent,net_io,block_io,pids
+2026-06-02T09:16:57.772Z,100,peer0.org1.example.com,bbcfd773e0b5,33.94%,220.4MiB / 7.738GiB,2.78%,409MB / 336MB,0B / 163MB,13
+2026-06-02T09:16:57.772Z,100,peer0.org2.example.com,4450af41a44f,31.44%,208.2MiB / 7.738GiB,2.63%,196MB / 132MB,0B / 162MB,12
+2026-06-02T09:16:57.772Z,100,orderer.example.com,31e02349a699,10.92%,148.1MiB / 7.738GiB,1.87%,115MB / 229MB,0B / 240MB,12
+2026-06-02T09:17:00.848Z,100,peer0.org1.example.com,bbcfd773e0b5,60.00%,222.5MiB / 7.738GiB,2.81%,415MB / 341MB,0B / 166MB,13
+2026-06-02T09:17:00.848Z,100,peer0.org2.example.com,4450af41a44f,33.02%,213.2MiB / 7.738GiB,2.69%,202MB / 136MB,0B / 169MB,12
+2026-06-02T09:17:00.848Z,100,orderer.example.com,31e02349a699,12.20%,154.1MiB / 7.738GiB,1.95%,118MB / 234MB,0B / 245MB,12
+2026-06-02T09:17:02.892Z,100,peer0.org1.example.com,bbcfd773e0b5,33.34%,229MiB / 7.738GiB,2.89%,424MB / 348MB,0B / 171MB,13
+2026-06-02T09:17:02.892Z,100,peer0.org2.example.com,4450af41a44f,21.91%,213.3MiB / 7.738GiB,2.69%,205MB / 138MB,0B / 171MB,12
+2026-06-02T09:17:02.892Z,100,orderer.example.com,31e02349a699,10.05%,154.2MiB / 7.738GiB,1.95%,119MB / 238MB,0B / 249MB,12

@@ -1,0 +1,25 @@
+{
+  "created_at": "2026-06-02T12:02:15.221218",
+  "runs": [
+    {
+      "target_tps": 50,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/paper-initial/tps_50"
+    },
+    {
+      "target_tps": 100,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/paper-initial/tps_100"
+    },
+    {
+      "target_tps": 150,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/paper-initial/tps_150"
+    },
+    {
+      "target_tps": 200,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/paper-initial/tps_200"
+    },
+    {
+      "target_tps": 250,
+      "run_dir": "/Users/tanmay/fabric-3-research/fabric3-caliper/results/latency/paper-initial/tps_250"
+    }
+  ]
+}

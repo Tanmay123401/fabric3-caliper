@@ -1,0 +1,8 @@
+{
+  "target_tps": 50,
+  "duration_seconds": 8,
+  "payload_kb": 1,
+  "total_transactions": 400,
+  "start_time": "2026-06-02T09:16:45.692Z",
+  "end_time": "2026-06-02T09:16:54.995Z"
+}

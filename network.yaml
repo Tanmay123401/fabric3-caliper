@@ -1,0 +1,27 @@
+name: Fabric Test Network
+version: "2.0.0"
+
+caliper:
+  blockchain: fabric
+
+channels:
+  - channelName: mychannel
+    contracts:
+      - id: basic
+
+organizations:
+  - mspid: Org1MSP
+
+    identities:
+      certificates:
+        - name: admin
+
+          clientPrivateKey:
+            path: ../fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/keystore/708392b9d79ca53bb1aa990f61716108979e844e381b62f56910790c42874be2_sk
+
+          clientSignedCert:
+            path: ../fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp/signcerts/cert.pem
+
+    connectionProfile:
+      path: ../fabric-samples/test-network/organizations/peerOrganizations/org1.example.com/connection-org1.yaml
+      discover: true

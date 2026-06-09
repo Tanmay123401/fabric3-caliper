@@ -1,0 +1,18 @@
+workers:
+  number: 10
+
+rounds:
+  - label: createAsset
+
+    txNumber: 5000
+
+    rateControl:
+      type: fixed-rate
+      opts:
+        tps: 200
+
+    workload:
+      module: workloads/createAsset.js
+
+      arguments:
+        payloadKB: 1

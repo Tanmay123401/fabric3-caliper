@@ -1,0 +1,27 @@
+{
+  "name": "fabric3-caliper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "bottleneck:run": "node scripts/run_bottleneck_analysis.js",
+    "bottleneck:analyze": "python3 scripts/analyze_bottleneck.py",
+    "bottleneck:efficiency": "python3 scripts/analyze_resource_efficiency.py",
+    "worker-scaling:run": "python3 scripts/run_dynamic_worker_scaling.py",
+    "worker-scaling:adaptive": "python3 scripts/run_adaptive_worker_scaling.py",
+    "queueing:analyze": "python3 scripts/analyze_queueing_theory.py",
+    "energy:analyze": "python3 scripts/analyze_energy_efficiency.py",
+    "latency:sweep": "python3 scripts/run_latency_sweep.py",
+    "latency:analyze": "python3 scripts/analyze_latency.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.3",
+    "@hyperledger/caliper-cli": "^0.6.0",
+    "@hyperledger/caliper-core": "^0.6.0",
+    "@hyperledger/fabric-gateway": "^1.5.0"
+  }
+}
